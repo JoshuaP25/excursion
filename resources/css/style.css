@@ -26,12 +26,13 @@ header h1 {
 .downloadLink {
     color: aquamarine;
     font-size: 16px;
+    margin-top: 20px;
 }
 
 section {
     margin: 20px 0 40px 0;
 }
 
-.copyright p {
+footer p {
     text-align: right;
 }

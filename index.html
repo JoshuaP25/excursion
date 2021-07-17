@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
+    <link href="resources/css/style.css" type="text/css" rel="stylesheet">
     <title>Excursion</title>
 </head>
 <body>
@@ -14,25 +14,27 @@
     </header>
     <section>
         <div class="video-ads">
-            <video src="./resources/video/excursion.mp4" autoplay loop>Video not supported</video>
+            <video autoplay muted loop>
+                <source src="resources/video/excursion.mp4" type="video/mp4">
+            </video>
         </div>
     </section>
     <article>
         <h2>Your personal travel guide</h2>
         <p>Excursion remembers places you like, and recommends new points of interest around you.</p>
         <div class="places">
-            <img src="./resources/images/camp.jpg" alt="camp" />
+            <img src="resources/images/camp.jpg" alt="camp" />
         </div>
     </article>
     <section>
-        <embed src="./resources/images/phone.png" />
+        <embed src="resources/images/phone.png" />
         <h2>Coming Soon for iPhone and Android</h2>
     </section>
-    <footer>
+    <div>
         <a class="downloadLink" href="#">Download Excursion (Coming soon!)</a>
-        <div class="copyright">
-            <p>&copy Excursion</p>
-        </div>
+    </div>
+    <footer>
+        <p>&copy Excursion</p>
     </footer>
 </body>
 </html>
